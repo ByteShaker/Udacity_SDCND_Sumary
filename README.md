@@ -22,7 +22,7 @@ Hierbei wird ein Videostream einer Autobahnfahrt zur Verfügung gestellt.
 Die Kursteilnehmer müssen mit Hilfe von einfachen "Computer Vision" Techniken die grobe Position und Ausrichtung der Fahrspurlinien erkennen können.
 Verwendete Methoden sind hierbei "Canny Edge" und "Hough Transform".
 
-[![Projekt 1 / Videobeispiel](./media/white.mp4)](./media/white.mp4)
+[![Lane Finding / Videobeispiel](./media/white.mp4)](./media/white.mp4)
 
 
 ### Deep Learning
@@ -69,6 +69,8 @@ In Verwendung der Inhalte aus den vorangehenden Kapiteln ist es Aufgabe der Stud
 Für die Bearbeitung werden Quellen von verschiedenen Papern genannt, die einfache Architekturen benennen, mit Hilfe derer eine robuste Lösung konstrukiert werden kann.
 Explizites Augenmerk liegt darauf, dass die Netze weder over- noch underfitted werden.
 
+[![Traffic Sign Classification / Beispiel einer Implementierung](https://github.com/ByteShaker/sdcnd_traffic-signs/blob/master/Traffic_Signs_Recognition.ipynb)](https://github.com/ByteShaker/sdcnd_traffic-signs/blob/master/Traffic_Signs_Recognition.ipynb)
+
 9. Keras:
 
 Im folgenden wird auf die umfangreiche Keras Bibliothek einegangen, die es mit einfachen Schritten ermöglicht komplexe, vielschichtige Convolutional Neural Networks aufzubauen.
@@ -80,7 +82,7 @@ Dieses Kapitel behandelt die Vorgehensweise, um bereits gelernte bestehende Netz
 Dies spart in der Regel lange Trainingszeiten. Jedoch muss darauf geachtet werden die neuen Aufgabenstellungen sinnvoll in das Netzwerk einzuarbeiten.
 Verwendete bestehende kanonische Netzwerke sind: AlexNet, VGG, GoogLeNet und ResNet.
 
-11. <b>Project: Behaviour Cloning </b> (Level: Expert / Codesprache: Pyhon, Keras)
+11. <b>Projekt 3: Kopieren von menschlichem Fahrverhalten </b> (Level: Expert / Codesprache: Pyhon, Keras)
 
 Aufgabe der Studenten ist es ihr Fahrverhalten in einem Fahrsimulator durch ein Neuronales Netz zu kopieren. 
 Dazu sammeln Sie Bilddaten und parallel dazu ihre Steuerungsbefehle während Sie das Fahrzeug auf der simulierten Rennstrecke bewegen. 
@@ -90,3 +92,27 @@ Gelingt der Prozess lernt das Fahrzeug die Steuerbefehle des Nutzers anhand aktu
 Da das Netz nicht blind kopiert, gelingt es bei ausreichender Datenmenge temporäre Fehler des menschlichen Fahrers zu glätten und so effizienter und robuster die Rennstrecke zu absolvieren.
 
 [![Behaviour Cloning / Beispiel einer Implementierung](https://github.com/ByteShaker/behaviour_cloning)](https://github.com/ByteShaker/behaviour_cloning)
+
+### Computer Vision
+
+1. Cameras:
+
+In diesem Kapitel wird auf die notwendige Physic von Kameralinsen eingegangen. 
+Zudem wird erläutert welche Techniken notwendig sind, um Bildmaterial für eine maschinelle Verarbeitung vorzubereiten.
+Im Speziellen wird auf Kamerakalibrierung, Bildendzerrung und das Transoformieren von Bildperspektiven eingegangen.
+
+2. Lane Finding:
+
+Dieses Kapitel beschäftigt sich mit der Weiterentwicklung des Spurerkenners aus dem ersten Projekt. 
+Dazu werden fortgeschrittene Methoden erläutert, um auch bei kurvigen Strassen, schlechtem Wetter oder ungünstigen Lichtverhältnissen eine robuste Erkennung zu gewährleisten.
+
+3. <b>Projekt 4: Weiterentwicklung Spurerkennung</b> (Level: Expert / Codesprache: Python, OpenCV)
+
+In diesem Projekt werden erneut Videostreams verschiedener Autobahnfahrten bzw. Landstrassen bearbeitet.
+Im Gegensatz zu den Bildern aus Projekt 1 befinden wir uns diesmal auf kurvigen Autobahnabschnitte und haben mit unterschiedlichen Fahrbahnbelägen und Lichtverhältnissen zu kämpfen.
+Durch Kalibrieren der Kamera und Transformieren der Bilder in den "Birds-Eye-View" werden die Videos für die weitere Verarbeitung vorbereitet.
+Im Anschluss wird ein Verfahren implementiert, mit dem Spurlinienpunkte erkannt werden und daraus per Polynomischem Fit die entsprechenden "Splines" berechnet werden.
+Dies beinhaltet die Anwendung verschiedener Filter und die Kombination der richtigen Extraktionen.
+Am Ende des Projekts sind die Studenten in der Lage die berechnete Fahrspur ins Realbild zu transformieren und entsprechende Kurvenparameter zu berechnen.
+
+[![Advanced Lane Finding / Beispiel einer Implementierung und Videobeispiel](https://github.com/ByteShaker/advanced-lane-lines/blob/master/writeup_template.md)](https://github.com/ByteShaker/advanced-lane-lines/blob/master/writeup_template.md)
