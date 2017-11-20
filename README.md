@@ -3,6 +3,7 @@
 ##Term 1:
 
 ### Einführung
+
 1. Kurze Einführung.
 
 Vorstellung der beteiligten Spezialisten im Kurs (Sebastian Thrun, Ryan Keenan und David Silver).
@@ -22,3 +23,20 @@ Die Kursteilnehmer müssen mit Hilfe von einfachen "Computer Vision" Techniken d
 Verwendete Methoden sind hierbei "Canny Edge" und "Hough Transform".
 
 [![Projekt 1 / Videobeispiel](./media/white.mp4)](./media/white.mp4)
+
+
+### Deep Learning
+
+1. Machine Learning:
+
+In diesem ersten Kapitel werden fundamentale Kenntnisse im Bereich Machine Learning wiederholt.
+Dabei werden vor Allem Beispiele aus "Regression" und "Classification" betrachtet.
+
+2. Neural Network:
+
+Im Folgenden wird auf die Prinzipielle Funktionsweise von Perzeptronen eingegangen.
+In Anlehnung ein Neuron im menschlichen Gehirn wird Speziell auf Aktivierungsfunktionen eingegangen.
+Zudem stehen mehrere kurze Übungen an, in denen die Studenten eigenständig ihr erstes Neuronales Netz in Python strukturieren und programmieren.
+
+3. Logistic Classifier:
+
