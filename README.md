@@ -413,5 +413,6 @@ Kontrolliert wird das Fahrzeug lediglich durch Gaspedal/Bremse und das Lenkrad.
 Als Backendinformation existiert eine schematische Karte mit niedriger Qualität.
 
 [![CARLA - System Integrtion / Beispiel einer Implementierung](https://github.com/ByteShaker/CarND-Capstone)](https://github.com/ByteShaker/CarND-Capstone)
+
 [![CARLA - System Integrtion / Videobeispiel](https://www.youtube.com/watch?v=1KDDv5UTwig)](https://www.youtube.com/watch?v=1KDDv5UTwig)
 
