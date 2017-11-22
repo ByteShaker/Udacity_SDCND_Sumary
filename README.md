@@ -1,6 +1,6 @@
-#Udacity Self-Driving-Car Engineer / Summary
+# Udacity Self-Driving-Car Engineer / Summary
 
-##Term 1:
+## Term 1:
 
 ### Einführung
 
@@ -150,9 +150,9 @@ Zielsetzung ist jedoch nicht nur die robuste Erkennung der Fahrzeuge pro Frame, 
 
 [![Vehicle Tracking / Beispiel einer Implementierung und Videobeispiel](https://github.com/diyjac/SDC-P5)](https://github.com/diyjac/SDC-P5)
 
-##Term 2:
+## Term 2:
 
-###Sensor Fusion
+### Sensor Fusion
 
 1. Sensors:
 
@@ -193,7 +193,7 @@ Im Anschluss wird die Performance der beiden Filter beim Tracken eines Fussgäng
 
 [![Unscented Kalman Filter / Beispiel einer Implementierung](https://github.com/mvirgo/Unscented-Kalman-Filter)](https://github.com/mvirgo/Unscented-Kalman-Filter)
 
-###Localization
+### Localization
 
 1. Motion:
 
@@ -234,7 +234,7 @@ Hierfür beginnt das Fahrzeug sich zu bewegen und entsprechende Sensordaten rüc
 
 [![Particle Filter / Beispiel einer Implementierung](http://jeremyshannon.com/2017/06/02/udacity-sdcnd-kidnapped-vehicle.html)](http://jeremyshannon.com/2017/06/02/udacity-sdcnd-kidnapped-vehicle.html)
 
-###Control
+### Control
 
 1. Control:
 
@@ -268,7 +268,7 @@ Hierbei sind die Studenten angehalten und in der Lage wesentlich schneller und s
 
 ## Term 3:
 
-###Path Planning
+### Path Planning
 
 1. Environmental Prediction:
 
@@ -298,11 +298,11 @@ Je schneller, komfortabler und sicherer das fFhrzeug die Strecke bewältigt dest
 [![Highway Path Planner / Beispiel einer Implementierung und Videobeispiel](https://github.com/ByteShaker/CarND-Path-Planning-Project)](https://github.com/ByteShaker/CarND-Path-Planning-Project)
 
 
-###Elective
+### Elective
 
 In diesem Term kann zwischen zwei Pfaden entschieden werden:
 
-####Elective 1: Advanced Deep Learning mit NVIDIA
+#### Elective 1: Advanced Deep Learning mit NVIDIA
 
 1. Fully Convolutional Networks
 
@@ -334,7 +334,7 @@ Als Datenquelle wird KiTTi Road Detection verwendet.
 
 [![Sematic Segmentation / Beispiel einer Implementierung und Videobeispiel](https://github.com/NikolasEnt/Road-Semantic-Segmentation)](https://github.com/NikolasEnt/Road-Semantic-Segmentation)
 
-####Elective 2: Functional Safety mit Elektrobit
+#### Elective 2: Functional Safety mit Elektrobit
 
 1. Introduction:
 
@@ -379,7 +379,7 @@ Diese Aufgaben sind im Bereich der Automobilentwicklung kritisch und befürdern 
 
 https://github.com/Waterfox/CarND-Functional-Safety-Project
 
-###Systems Integration
+### Systems Integration
 
 Dies ist das Finale Modul des Nanodegrees. 
 Im Unterschied zu allen vorherigen Kapiteln und Projekten ist für das bestehen dieses Abschnittes eine collaborative Bearbeitung notwendig.
