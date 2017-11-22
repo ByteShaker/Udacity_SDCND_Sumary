@@ -116,3 +116,38 @@ Dies beinhaltet die Anwendung verschiedener Filter und die Kombination der richt
 Am Ende des Projekts sind die Studenten in der Lage die berechnete Fahrspur ins Realbild zu transformieren und entsprechende Kurvenparameter zu berechnen.
 
 [![Advanced Lane Finding / Beispiel einer Implementierung und Videobeispiel](https://github.com/ByteShaker/advanced-lane-lines/blob/master/writeup_template.md)](https://github.com/ByteShaker/advanced-lane-lines/blob/master/writeup_template.md)
+
+4. Support Vector Machines:
+
+Im Vergleich zu den bisher behandelten Neuronalen Netzen wird in diesem Kapitel die Funktionsweise von SVMs erklärt und anhand einer kurzen Programmieraufgabe verdeutlicht.
+Dies dient dazu auch weitere Machine Learning Algorithmen kennenzulernen, die für spezielle Anwendungen performanter sein können als Neuronale Netze.
+
+5. Decision Tree:
+
+Ähnlich der SVMs wird in diesem Kapitel die Funktionsweise von Entschiedungsbäumen erläutert. 
+Auch diese werden in einem Programmierbeispiel dazu verwendet Bilder zu klassifizieren.
+
+6. Histogram of Oriented Gradients:
+
+Ein wichtiges und effizientes Feature zur Klassifizierung von Bildern stellt das sog. HOG-Feature dar.
+Hierbei werden Muster der Gradientenlinien im Bild identifiziert und dazu genutzt wiederkehrende Objekte zu erkennen.
+
+7. Deep Neural Network:
+
+Hier wird eine weitere DNN-Architektur behandelt und anhand von Codebeispielen auf die unterschiedliche Perfomance im Vergleich zu SVM, Decisin Tree und HOG eingegangen.
+Eines oder mehrere dieser Technologien wird je nach Gefühl des Studenten für das anstehende Projekt verwendet.
+
+8. Vehicle Detection:
+
+Um für das finale Projekt des ersten Abschnitts vorbereitet zu sein, wird in diesem Kapitel das Lokalisieren von Fahrzeugen im Kamerabild erläutert.
+Dazu werden verschiedene Inhalte der vorhergehenden Kapitel vereint. Zudem wird auf verschiedene Strategien des Subsampelns eines Bildabschnittes eingegangen.
+
+9. <b>Project 5 : Vehicle Tracking</b> (Level: Expert / Codesprache: Python, SciPy, OpenCV)
+
+Das letzte Projekt des ersten Terms beinhaltet das Erkennen und Tracken von Fahrzeugen in einem Videostram.
+Hierzu müssen die Studenten verschiedene der oben beschriebenen Methoden anwenden um eine robuste Erkennung zu gewährleisten.
+Zielsetzung ist jedoch nicht nur die robuste Erkennung der Fahrzeuge pro Frame, sondern das Predicieren der erkannten Objekte in den nächsten Frame, um eine Trennung der Fahrzeuge bei Überlappung gewährleisten zu können.
+
+[![Vehicle Tracking / Beispiel einer Implementierung und Videobeispiel](https://github.com/diyjac/SDC-P5)](https://github.com/diyjac/SDC-P5)
+
+##Term 2:
